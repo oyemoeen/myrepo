@@ -30,7 +30,14 @@ h1 {
     outline: none;
     box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.5);
   }
-
-
-
+}
+p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #666;
+  transition: color 0.3s ease;
+  &:hover {
+    color: #555;
+    cursor: pointer;
+  }
 }
